@@ -1,0 +1,56 @@
+{
+  "name": "stock-exchange-uel-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "connected-react-router": "^6.4.0",
+    "cross-env": "^5.2.0",
+    "deep-freeze": "^0.0.1",
+    "history": "^4.9.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
+    "react-google-recaptcha": "^1.0.5",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.0.1",
+    "react-table": "^6.10.0",
+    "react-table-container": "^2.0.2",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.2",
+    "socket.io-client": "^2.2.0",
+    "store": "^2.0.12"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "start:local": "cross-env NODE_PATH=src REACT_APP_NODE_ENV=onLocal react-scripts start",
+    "start:production": "cross-env NODE_PATH=src REACT_APP_NODE_ENV=production react-scripts start",
+    "build": "cross-env NODE_PATH=src REACT_APP_NODE_ENV=production GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

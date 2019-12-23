@@ -1,0 +1,15 @@
+/**
+ * @file constants
+ */
+
+export const LOGIN = "LOGINPAGE/LOGIN";
+export const LOGIN_SUCCESS = "LOGINPAGE/LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGINPAGE/LOGIN_FAIL";
+
+export const LOGOUT = "LOGINPAGE/LOGOUT";
+export const LOGOUT_SUCCESS = "LOGINPAGE/LOGOUT_SUCCESS";
+
+export const HANDLE_INPUT_CHANGE = "LOGINPAGE/HANDLE_INPUT_CHANGE";
+
+export const GET_USER_INFO = "LOGINPAGE/GET_USER_INFO";
+export const CLEAR = "LOGINPAGE/CLEAR";

@@ -1,0 +1,92 @@
+.text-right {
+    padding-right: 5px;
+}
+.margin-0 {
+    margin: 0 !important;
+}
+.fs-24{
+    font-size: 24px;
+}
+
+.tableContainer {
+    min-width: 1024px;
+}
+.table-fixed {
+    z-index: 1;
+}
+.highlightTable {
+    height: 28px;
+    padding-top: 7px;
+    text-align: right;
+    padding-right: 5px;
+}
+.price {
+    table-layout: fixed;
+    background: #05040f;
+    box-shadow: 0 4px 10px rgba(0,0,0,.4);
+}
+.price thead th {
+    background: #14101d;
+    border: 1px solid #2C2935;
+    color: #FFFFFF;
+    line-height: 15px; 
+    cursor: ns-resize;
+    font-weight: normal;
+    height: 33px;
+    min-width: 50px;
+    align-self: center;
+}
+.price tbody tr:first-child td:first-child {
+    border-left: 2px solid #524e62 !important;
+}
+.price tr:nth-child(2n+1) .special {
+    background-color: #1c1a2b;
+}
+.price tbody tr td.stockSymbol {
+    cursor: pointer;
+}
+.price td {
+    height: 28px;
+    border: 1px solid #2C2935;
+    border-left-color: rgb(44, 41, 53);
+    border-left-style: solid;
+    border-left-width: 1px;
+    min-width: 50px;
+}
+table.price td.stockSymbol {
+    text-align: left;
+    padding-left: 6px
+}
+
+
+/*Text color*/
+.txt-down {
+    color: #FF0017;
+}
+.txt-none {
+    color: #ffffff;
+}
+.txt-up {
+    color: #0BDF39;
+}
+.txt-ceil {
+    color: #FD02FD;
+}
+.txt-floor {
+    color: #52D3F9;
+}
+.txt-ref {
+    color: #FDFF12;
+}
+.bg-up {
+    background-color: #0BDF39;
+    color: #fff;
+}
+.bg-down {
+    background-color: #FF0017;
+    color: #fff;
+}
+.bg-ref {
+    background-color: #FDFF12;
+    color: #fff;
+}

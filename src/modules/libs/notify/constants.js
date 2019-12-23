@@ -1,0 +1,2 @@
+export const SHOW_NOTIFY = "UIT/MAIN/SHOW_NOTIFY";
+export const CLOSE_NOTIFY = "UIT/MAIN/CLOSE_NOTIFY";
